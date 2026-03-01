@@ -1,8 +1,6 @@
-package List1;
-
 public class Question1 {
 
-    public static  double sumValueList(double[] notas){
+    private static  double sumValueList(double[] notas){
         double sumNote = 0;
         for (double v : notas) {
             sumNote += v;
@@ -11,12 +9,12 @@ public class Question1 {
     };
 
 
-    public static double mediaList(double[] notas){
+    private static double mediaList(double[] notas){
         return sumValueList(notas) / notas.length;
     }
 
 
-    public static int studentsMedia(double[] notas){
+    private static int studentsMedia(double[] notas){
         int alunosMedia = 0;
         double media = mediaList(notas);
 
@@ -26,7 +24,7 @@ public class Question1 {
         return alunosMedia;
     }
 
-    public static  double higherGrade(double[] notas){
+    private static  double higherGrade(double[] notas){
         double notaMaior =0;
 
         for (double nota : notas) {
@@ -37,7 +35,7 @@ public class Question1 {
     };
 
 
-    public static void main(String[] args){
+    public static void main(){
         double[] notas = {7.5, 4.0, 9.2, 5.5, 8.0, 6.5, 3.2, 10.0, 7.0, 5.8};
 
         System.out.println("Media:  " + mediaList(notas));
