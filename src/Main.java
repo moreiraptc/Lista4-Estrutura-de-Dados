@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Main {
 
-    void main(String[] args){
+    public static void main(String[] args){
 
 
         System.out.print("Digite o número do exercício que deseja rodar ou 0 para sair: ");
@@ -36,5 +36,6 @@ public class Main {
 
             option = sc.nextInt();
         }
+        sc.close();
     }
 }
