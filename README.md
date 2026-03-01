@@ -1,6 +1,6 @@
 # Lista 4 - Estrutura de Dados I (Java) 📑
 
-Repositório destinado à resolução da **Lista de Exercícios 4** da disciplina de Estrutura de Dados I, do curso de **Tecnologia em Sistemas para Internet (IFTM - Campus Patrocínio)**.
+Repositório destinado à resolução da **Lista de Exercícios 4** da disciplina de Estrutura de Dados I, do curso de **Análise e Desenvolvimento de Sistemas**.
 
 ## 🚀 Sobre o Projeto
 
@@ -15,14 +15,12 @@ Esta lista foca na manipulação de **Arrays (Vetores)** e na implementação de
 
 ## 📋 Exercícios Desenvolvidos
 
-| Exercício | Descrição | Status |
-| :--- | :--- | :---: |
-| **Questão 1** | [Inserir descrição da Q1 aqui]
-| **Questão 2** | [Inserir descrição da Q2 aqui]
-| **Questão 3** | [Inserir descrição da Q3 aqui]
-| **Questão 4** | [Inserir descrição da Q4 aqui]
-| **Questão 5** | [Inserir descrição da Q5 aqui]
-| **Questão 6** | **Inversão de Vetor In-place:** Algoritmo $O(n)$ que inverte os elementos de um array sem memória extra.
+| **Questão 1** |
+| **Questão 2** | 
+| **Questão 3** |
+| **Questão 4** |
+| **Questão 5** |
+| **Questão 6** | 
 
 ---
 
@@ -34,3 +32,10 @@ O projeto conta com uma classe `Main` que gerencia um menu interativo para facil
    ```bash
    git clone [https://github.com/moreiraptc/Lista4-Estrutura-de-Dados.git](https://github.com/moreiraptc/Lista4-Estrutura-de-Dados.git)
    `
+2. Abra o projeto no IntelliJ IDEA
+3. Execute a classe Main.java
+4. Escolha o número do exercício no console.
+
+## 💻 Conceitos aplicados
+1. Tempo: $O(n)$ - O algoritmo é linear, pois o número de operações cresce proporcionalmente ao tamanho do vetor
+2. Espaço: $O(1)$ - Estratégia In-place, utilizando apenas uma variável auxiliar independente do tamanho da entrada.
